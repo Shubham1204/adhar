@@ -1,3 +1,10 @@
+html {
+  height: auto;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+
 .redText { color: red; }
 
 hr{
@@ -32,5 +39,19 @@ div.a{
 div.b{
     padding-top: 18px;
     
+}
+
+div.m{
+    font-size: 30px;
+}
+
+div.w{
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 1000px) {
+    div.m{
+        font-size: 20px;
+    }
 }
 
